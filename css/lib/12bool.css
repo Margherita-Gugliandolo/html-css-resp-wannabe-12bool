@@ -2,15 +2,11 @@
   max-width: 1170px;
   margin:auto;
   text-align: center;
+  margin-top: 5%;
 }
 /* regole di debug */
 
-.container>.container{
-  border:1px solid black;
-}
-
-
-.container::after{
+.row::after{
   content: "";
   display:table;
   clear:both;
@@ -18,10 +14,27 @@
 
 [class*="col-"] {
   float:left;
-  /* debug */
-  height:100px;
-  border:1px solid black;
 }
+
+.img-left{
+  width:200px;
+}
+
+.img-right{
+  width:320px;
+}
+
+.row{
+  padding: 0 25px;
+}
+
+.icona{
+  width:200px;
+  background-color: #458ad3;
+  border-radius: 50%;
+  padding:15px;
+}
+
 
 /* regole divisione colonna xs */
 @media all and (max-width:768px){
