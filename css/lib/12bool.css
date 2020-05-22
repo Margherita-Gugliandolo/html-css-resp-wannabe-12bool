@@ -1,11 +1,10 @@
 .container{
   max-width: 1170px;
   margin:auto;
+  text-align: center;
 }
 /* regole di debug */
-.container{
-  border:1px solid black;
-}
+
 .container>.container{
   border:1px solid black;
 }
@@ -184,6 +183,7 @@ width: calc((100% /12) * 10);
 
 /* regole deckstop */
 @media all and (min-width:993px) {
+
 .col-lg-1{
   width: calc((100% /12) * 1);
 }
